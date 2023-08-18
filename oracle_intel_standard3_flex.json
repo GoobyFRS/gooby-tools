@@ -1,0 +1,133 @@
+{
+    "version": "v2023-04-23",
+    "time": "20230818-205120",
+    "os": {
+        "arch": "x64",
+        "distro": "Ubuntu 22.04.3 LTS",
+        "kernel": "5.15.0-1038-oracle",
+        "uptime": 285.81,
+        "vm": "KVM"
+    },
+    "net": {
+        "ipv4": true,
+        "ipv6": false
+    },
+    "cpu": {
+        "model": "Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz",
+        "cores": 4,
+        "freq": "2593.990 MHz",
+        "aes": true,
+        "virt": true
+    },
+    "mem": {
+        "ram": 8121704,
+        "ram_units": "KiB",
+        "swap": 0,
+        "swap_units": "KiB",
+        "disk": 64954658,
+        "disk_units": "KB"
+    },
+    "ip_info": {
+        "protocol": "IPv4",
+        "isp": "Oracle Corporation",
+        "asn": "AS31898 Oracle Corporation",
+        "org": "Oracle Cloud Infrastructure (us-phoenix-1)",
+        "city": "Phoenix",
+        "region": "Arizona",
+        "region_code": "AZ",
+        "country": "United States"
+    },
+    "fio": [
+        {
+            "bs": "4k",
+            "speed_r": 8113,
+            "iops_r": 2028,
+            "speed_w": 8153,
+            "iops_w": 2038,
+            "speed_rw": 16266,
+            "iops_rw": 4066,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "64k",
+            "speed_r": 26321,
+            "iops_r": 411,
+            "speed_w": 26814,
+            "iops_w": 418,
+            "speed_rw": 53135,
+            "iops_rw": 829,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "512k",
+            "speed_r": 24462,
+            "iops_r": 47,
+            "speed_w": 25977,
+            "iops_w": 50,
+            "speed_rw": 50439,
+            "iops_rw": 97,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "1m",
+            "speed_r": 23985,
+            "iops_r": 23,
+            "speed_w": 26478,
+            "iops_w": 25,
+            "speed_rw": 50463,
+            "iops_rw": 48,
+            "speed_units": "KBps"
+        }
+    ],
+    "iperf": [
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "26.0 Mbits/sec",
+            "recv": "57.3 Mbits/sec",
+            "latency": "124 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "busy ",
+            "recv": "782 Mbits/sec",
+            "latency": "134 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "1.12 Gbits/sec",
+            "recv": "56.6 Mbits/sec",
+            "latency": "55.5 ms"
+        }
+    ],
+    "geekbench": [
+        {
+            "version": 4,
+            "single": 4911,
+            "multi": 9882,
+            "url": "https://browser.geekbench.com/v4/cpu/16851122"
+        },
+        {
+            "version": 5,
+            "single": 1179,
+            "multi": 2666,
+            "url": "https://browser.geekbench.com/v5/cpu/21602301"
+        },
+        {
+            "version": 6,
+            "single": 1551,
+            "multi": 3270,
+            "url": "https://browser.geekbench.com/v6/cpu/2311352"
+        }
+    ],
+    "runtime": {
+        "start": 1692391880,
+        "end": 1692392885,
+        "elapsed": 1005
+    }
+}

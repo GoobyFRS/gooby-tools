@@ -1,0 +1,157 @@
+{
+    "version": "v2023-04-23",
+    "time": "20230818-174439",
+    "os": {
+        "arch": "x64",
+        "distro": "Debian GNU/Linux 12 (bookworm)",
+        "kernel": "6.1.0-10-amd64",
+        "uptime": 189.66,
+        "vm": "KVM"
+    },
+    "net": {
+        "ipv4": true,
+        "ipv6": true
+    },
+    "cpu": {
+        "model": "AMD EPYC 7601 32-Core Processor",
+        "cores": 2,
+        "freq": "2199.996 MHz",
+        "aes": true,
+        "virt": false
+    },
+    "mem": {
+        "ram": 4009468,
+        "ram_units": "KiB",
+        "swap": 524284,
+        "swap_units": "KiB",
+        "disk": 81970664,
+        "disk_units": "KB"
+    },
+    "ip_info": {
+        "protocol": "IPv6",
+        "isp": "Akamai Technologies",
+        "asn": "AS63949 Akamai Connected Cloud",
+        "org": "Linode",
+        "city": "Sydney",
+        "region": "New South Wales",
+        "region_code": "NSW",
+        "country": "Australia"
+    },
+    "fio": [
+        {
+            "bs": "4k",
+            "speed_r": 108080,
+            "iops_r": 27020,
+            "speed_w": 108365,
+            "iops_w": 27091,
+            "speed_rw": 216445,
+            "iops_rw": 54111,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "64k",
+            "speed_r": 1209744,
+            "iops_r": 18902,
+            "speed_w": 1216111,
+            "iops_w": 19001,
+            "speed_rw": 2425855,
+            "iops_rw": 37903,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "512k",
+            "speed_r": 1991111,
+            "iops_r": 3888,
+            "speed_w": 2096904,
+            "iops_w": 4095,
+            "speed_rw": 4088015,
+            "iops_rw": 7983,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "1m",
+            "speed_r": 2163718,
+            "iops_r": 2113,
+            "speed_w": 2307820,
+            "iops_w": 2253,
+            "speed_rw": 4471538,
+            "iops_rw": 4366,
+            "speed_units": "KBps"
+        }
+    ],
+    "iperf": [
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "14.3 Mbits/sec",
+            "recv": "23.0 Mbits/sec",
+            "latency": "263 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "busy ",
+            "recv": "busy ",
+            "latency": "246 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "443 Mbits/sec",
+            "recv": "18.8 Mbits/sec",
+            "latency": "270 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "14.1 Mbits/sec",
+            "recv": "27.3 Mbits/sec",
+            "latency": "263 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "busy ",
+            "recv": "busy ",
+            "latency": "265 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "18.0 Mbits/sec",
+            "recv": "30.8 Mbits/sec",
+            "latency": "281 ms"
+        }
+    ],
+    "geekbench": [
+        {
+            "version": 4,
+            "single": 2595,
+            "multi": 4492,
+            "url": "https://browser.geekbench.com/v4/cpu/16851073"
+        },
+        {
+            "version": 5,
+            "single": 507,
+            "multi": 999,
+            "url": "https://browser.geekbench.com/v5/cpu/21601823"
+        },
+        {
+            "version": 6,
+            "single": 587,
+            "multi": 1049,
+            "url": "https://browser.geekbench.com/v6/cpu/2309981"
+        }
+    ],
+    "runtime": {
+        "start": 1692380679,
+        "end": 1692382322,
+        "elapsed": 1643
+    }
+}

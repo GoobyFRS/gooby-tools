@@ -1,0 +1,105 @@
+{
+    "refer": "Raspberry Pi 4B Rev1.4",
+    "version": "v2023-02-27",
+    "time": "20230305-160404",
+    "os": {
+        "arch": "aarch64",
+        "distro": "Debian GNU/Linux 11 (bullseye)",
+        "kernel": "5.15.84-v8+",
+        "uptime": 420941.06
+    },
+    "net": {
+        "ipv4": true,
+        "ipv6": false
+    },
+    "cpu": {
+        "model": "Cortex-A72",
+        "cores": 4,
+        "freq": "1800.0000 MHz",
+        "aes": false,
+        "virt": false
+    },
+    "mem": {
+        "ram": 7999832,
+        "swap": 102396,
+        "disk": 29764072
+    },
+    "fio": [
+        {
+            "bs": "4k",
+            "speed_r": 2870,
+            "iops_r": 717,
+            "speed_w": 2886,
+            "iops_w": 721,
+            "speed_rw": 5756,
+            "iops_rw": 1438
+        },
+        {
+            "bs": "64k",
+            "speed_r": 10312,
+            "iops_r": 161,
+            "speed_w": 10792,
+            "iops_w": 168,
+            "speed_rw": 21104,
+            "iops_rw": 329
+        },
+        {
+            "bs": "512k",
+            "speed_r": 12172,
+            "iops_r": 23,
+            "speed_w": 13576,
+            "iops_w": 26,
+            "speed_rw": 25748,
+            "iops_rw": 49
+        },
+        {
+            "bs": "1m",
+            "speed_r": 12051,
+            "iops_r": 11,
+            "speed_w": 13600,
+            "iops_w": 13,
+            "speed_rw": 25651,
+            "iops_rw": 24
+        }
+    ],
+    "iperf": [
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "812 Mbits/sec",
+            "recv": "112 Mbits/sec",
+            "latency": "117 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "787 Mbits/sec",
+            "recv": "78.0 Mbits/sec",
+            "latency": "123 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "904 Mbits/sec",
+            "recv": "98.6 Mbits/sec",
+            "latency": "54.6 ms"
+        }
+    ],
+    "geekbench": [
+        {
+            "version": 5,
+            "single": 271,
+            "multi": 741,
+            "url": "https://browser.geekbench.com/v5/cpu/20815736"
+        },
+        {
+            "version": 6,
+            "single": 291,
+            "multi": 663,
+            "url": "https://browser.geekbench.com/v6/cpu/425172"
+        }
+    ]
+}

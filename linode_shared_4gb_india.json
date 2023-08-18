@@ -1,0 +1,157 @@
+{
+    "version": "v2023-04-23",
+    "time": "20230818-211501",
+    "os": {
+        "arch": "x64",
+        "distro": "Debian GNU/Linux 12 (bookworm)",
+        "kernel": "6.1.0-10-amd64",
+        "uptime": 236.39,
+        "vm": "KVM"
+    },
+    "net": {
+        "ipv4": true,
+        "ipv6": true
+    },
+    "cpu": {
+        "model": "AMD EPYC 7501 32-Core Processor",
+        "cores": 2,
+        "freq": "1999.999 MHz",
+        "aes": true,
+        "virt": false
+    },
+    "mem": {
+        "ram": 4009468,
+        "ram_units": "KiB",
+        "swap": 524284,
+        "swap_units": "KiB",
+        "disk": 81970664,
+        "disk_units": "KB"
+    },
+    "ip_info": {
+        "protocol": "IPv6",
+        "isp": "Akamai Technologies",
+        "asn": "AS63949 Akamai Connected Cloud",
+        "org": "Linode",
+        "city": "Mumbai",
+        "region": "Maharashtra",
+        "region_code": "MH",
+        "country": "India"
+    },
+    "fio": [
+        {
+            "bs": "4k",
+            "speed_r": 124926,
+            "iops_r": 31231,
+            "speed_w": 125255,
+            "iops_w": 31313,
+            "speed_rw": 250181,
+            "iops_rw": 62544,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "64k",
+            "speed_r": 1324666,
+            "iops_r": 20697,
+            "speed_w": 1331637,
+            "iops_w": 20806,
+            "speed_rw": 2656303,
+            "iops_rw": 41503,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "512k",
+            "speed_r": 2073989,
+            "iops_r": 4050,
+            "speed_w": 2184186,
+            "iops_w": 4265,
+            "speed_rw": 4258175,
+            "iops_rw": 8315,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "1m",
+            "speed_r": 2275300,
+            "iops_r": 2221,
+            "speed_w": 2426834,
+            "iops_w": 2369,
+            "speed_rw": 4702134,
+            "iops_rw": 4590,
+            "speed_units": "KBps"
+        }
+    ],
+    "iperf": [
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "30.3 Mbits/sec",
+            "recv": "51.9 Mbits/sec",
+            "latency": "127 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "1.58 Gbits/sec",
+            "recv": "1.58 Gbits/sec",
+            "latency": "129 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "6.37 Mbits/sec",
+            "recv": "52.8 Mbits/sec",
+            "latency": "243 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "30.8 Mbits/sec",
+            "recv": "53.7 Mbits/sec",
+            "latency": "127 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "1.62 Gbits/sec",
+            "recv": "busy ",
+            "latency": "117 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "258 Mbits/sec",
+            "recv": "87.8 Mbits/sec",
+            "latency": "243 ms"
+        }
+    ],
+    "geekbench": [
+        {
+            "version": 4,
+            "single": 2887,
+            "multi": 4842,
+            "url": "https://browser.geekbench.com/v4/cpu/16851130"
+        },
+        {
+            "version": 5,
+            "single": 600,
+            "multi": 1122,
+            "url": "https://browser.geekbench.com/v5/cpu/21602372"
+        },
+        {
+            "version": 6,
+            "single": 730,
+            "multi": 1290,
+            "url": "https://browser.geekbench.com/v6/cpu/2311576"
+        }
+    ],
+    "runtime": {
+        "start": 1692393301,
+        "end": 1692394646,
+        "elapsed": 1345
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "version": "v2023-04-23",
+    "time": "20230818-173509",
+    "os": {
+        "arch": "x64",
+        "distro": "Debian GNU/Linux 12 (bookworm)",
+        "kernel": "6.1.0-10-amd64",
+        "uptime": 367.83,
+        "vm": "KVM"
+    },
+    "net": {
+        "ipv4": true,
+        "ipv6": true
+    },
+    "cpu": {
+        "model": "AMD EPYC 7642 48-Core Processor",
+        "cores": 1,
+        "freq": "2299.998 MHz",
+        "aes": true,
+        "virt": false
+    },
+    "mem": {
+        "ram": 984060,
+        "ram_units": "KiB",
+        "swap": 524284,
+        "swap_units": "KiB",
+        "disk": 25207476,
+        "disk_units": "KB"
+    },
+    "ip_info": {
+        "protocol": "IPv6",
+        "isp": "Akamai Technologies, Inc.",
+        "asn": "AS63949 Akamai Connected Cloud",
+        "org": "Linode",
+        "city": "Cedar Knolls",
+        "region": "New Jersey",
+        "region_code": "NJ",
+        "country": "United States"
+    },
+    "fio": [
+        {
+            "bs": "4k",
+            "speed_r": 167109,
+            "iops_r": 41777,
+            "speed_w": 167550,
+            "iops_w": 41887,
+            "speed_rw": 334659,
+            "iops_rw": 83664,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "64k",
+            "speed_r": 2102158,
+            "iops_r": 32846,
+            "speed_w": 2113222,
+            "iops_w": 33019,
+            "speed_rw": 4215380,
+            "iops_rw": 65865,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "512k",
+            "speed_r": 4922602,
+            "iops_r": 9614,
+            "speed_w": 5184154,
+            "iops_w": 10125,
+            "speed_rw": 10106756,
+            "iops_rw": 19739,
+            "speed_units": "KBps"
+        },
+        {
+            "bs": "1m",
+            "speed_r": 5271605,
+            "iops_r": 5148,
+            "speed_w": 5622690,
+            "iops_w": 5490,
+            "speed_rw": 10894295,
+            "iops_rw": 10638,
+            "speed_units": "KBps"
+        }
+    ],
+    "iperf": [
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "55.2 Mbits/sec",
+            "recv": "275 Mbits/sec",
+            "latency": "73.9 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "busy ",
+            "recv": "busy ",
+            "latency": "85.3 ms"
+        },
+        {
+            "mode": "IPv4",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "1.10 Gbits/sec",
+            "recv": "595 Mbits/sec",
+            "latency": "7.37 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Clouvider",
+            "loc": "London, UK (10G)",
+            "send": "53.1 Mbits/sec",
+            "recv": "98.9 Mbits/sec",
+            "latency": "73.9 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Scaleway",
+            "loc": "Paris, FR (10G)",
+            "send": "busy ",
+            "recv": "busy ",
+            "latency": "85.3 ms"
+        },
+        {
+            "mode": "IPv6",
+            "provider": "Clouvider",
+            "loc": "NYC, NY, US (10G)",
+            "send": "271 Mbits/sec",
+            "recv": "154 Mbits/sec",
+            "latency": "6.76 ms"
+        }
+    ],
+    "geekbench": [
+        {
+            "version": 4,
+            "single": 4220,
+            "multi": 4126,
+            "url": "https://browser.geekbench.com/v4/cpu/16851070"
+        },
+        {
+            "version": 5,
+            "single": 978,
+            "multi": 992,
+            "url": "https://browser.geekbench.com/v5/cpu/21601781"
+        }
+    ],
+    "runtime": {
+        "start": 1692380109,
+        "end": 1692380914,
+        "elapsed": 805
+    }
+}
