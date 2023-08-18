@@ -20,7 +20,7 @@ def show_ip():
 def create_window():
     global ip_label  # Declare ip_label as a global variable
     main_window = tk.Tk()
-    main_window.title("BlueBotCDN")
+    main_window.title("BlueBotDNS")
     main_window.geometry("400x300")
     main_window.configure(bg="grey")
 
