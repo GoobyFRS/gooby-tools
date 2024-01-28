@@ -6,7 +6,7 @@ import requests
 def get_wan_ip():
     try:
         response = requests.get("https://api.ipify.org?format=json") #Public API/JSON Reply Endpoint. Really neat in a browser too.
-        if response.status_code == 200: # Healthy HTTP response
+        if response.status_code == 200: # Normal/Healthy HTTP response
             data = response.json()
             return data['ip']
         else:
@@ -26,13 +26,14 @@ def main():
     main_window.geometry("200x150") # Window Size
     main_window.configure(bg="grey") # Background Color
 
-#This block will sit at the top of the window because it is defined first.
+#This GUI output block will sit at the top of the window because it is defined first.
     ip_label = tk.Label(main_window, text="")
     ip_label.pack()
-#This is the button below the output above. 
+#This is the button below the GUI output block above. 
     ip_button = tk.Button(main_window, text="Get My WANv4", command=show_ip)
     ip_button.pack()
 
     main_window.mainloop()
 
-main()
+if __name__ == "__main__":
+    main()
