@@ -9,7 +9,7 @@ sudo apt install neofetch pydf speedtest-cli python3-pip git curl wget whois -y
 
 #Set my Timezone 
 echo "Setting my Timezone"
-sudo timedatectl set-timezone America/Denver
+sudo timedatectl set-timezone America/Chicago
 echo "Updated timezone:"
 date
 
