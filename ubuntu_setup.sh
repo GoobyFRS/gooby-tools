@@ -43,3 +43,5 @@ sudo ufw allow ssh
 cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
 sudo systemctl status fail2ban.service
 sudo systemctl start fail2ban.service
+
+tailscale up --accept-dns --advertise-exit-node --operator=$user --ssh --qr
